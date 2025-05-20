@@ -26,6 +26,14 @@ A **MERN Stack Blog Application** built using **React.js**, **Node.js**, **Expre
 
 ---
 
+### 🔧 **Installation & Running Locally**
+      ✅ Prerequisites
+          Node.js & npm
+          
+          MongoDB
+          
+          Git
+
 # Clone the repository
   https://github.com/aman-gupta9793/MERN-Blog-App.git
   
