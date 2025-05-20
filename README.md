@@ -26,39 +26,18 @@ A **MERN Stack Blog Application** built using **React.js**, **Node.js**, **Expre
 
 ---
 
-### 🔧 **Installation & Running Locally**
-        Prerequisites
-            - Node.js & npm
-            
-            - MongoDB
-            
-            - Git
+# Clone the repository
+git clone https://github.com/your-username/blog-app.git
+cd blog-app
 
-        # Clone the repository
-            git clone https://github.com/your-username/blog-app.git
-            cd blog-app
-        
-        # Install all dependencies (root, frontend, backend)
-            npm install
-            cd frontend && npm install && cd ..
-            cd backend && npm install && cd ..
-        
-        # Start both frontend and backend together using concurrently
-            npm run dev
+# Install all dependencies (root, frontend, backend)
+npm install
+cd frontend && npm install && cd ..
+cd backend && npm install && cd ..
 
-    ## 📜 Scripts
-          - Make sure your root-level package.json has this:
-              "scripts": {
-                "dev": "concurrently \"npm run server\" \"npm run client\"",
-                "server": "cd backend && npm start",
-                "client": "cd frontend && npm start"
-              }
+# Start both frontend and backend together using concurrently
+npm run dev
 
-### 📌 Environment Variables
-    Create a .env file in the backend/ directory:
-
-      PORT=5000
-      MONGODB_URI=your_mongo_db_connection_string
    
 ### 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
