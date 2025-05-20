@@ -26,13 +26,13 @@ A **MERN Stack Blog Application** built using **React.js**, **Node.js**, **Expre
 
 ---
 
-### 🔧 **Installation & Running Locally**
-      ✅ Prerequisites
-          Node.js & npm
-          
-          MongoDB
-          
-          Git
+### 🔧 Installation & Running Locally
+
+#### ✅ Prerequisites
+
+- Node.js & npm  
+- MongoDB  
+- Git
 
 # Clone the repository
   https://github.com/aman-gupta9793/MERN-Blog-App.git
@@ -47,9 +47,8 @@ A **MERN Stack Blog Application** built using **React.js**, **Node.js**, **Expre
   cd backend && npm install && cd ..
 
 # Start both frontend and backend together using the concurrently package
-     first install concurrently package and then add the scripts
-     
-     npm run dev
+first install concurrently package and then add the scripts
+- npm run dev
 
    
 ### 🤝 Contributing
