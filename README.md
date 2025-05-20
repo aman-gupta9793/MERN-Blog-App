@@ -28,15 +28,19 @@ A **MERN Stack Blog Application** built using **React.js**, **Node.js**, **Expre
 
 # Clone the repository
   https://github.com/aman-gupta9793/MERN-Blog-App.git
+  
   cd blog-app
 
 # Install all dependencies (root, frontend, backend)
   npm install
+  
   cd frontend && npm install && cd ..
+  
   cd backend && npm install && cd ..
 
 # Start both frontend and backend together using the concurrently package
      first install concurrently package and then add the scripts
+     
      npm run dev
 
    
